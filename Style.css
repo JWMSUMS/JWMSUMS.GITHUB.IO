@@ -1,0 +1,133 @@
+                                .top_menu {
+                                    color: whitesmoke;
+                                    list-style: none;
+                                    text-align: center;
+                                    margin: 0%;
+                                    background-color: black;
+                                }
+                                
+                                nav {
+                                    border-bottom: solid 5px;
+                                    border-color: white;
+                                }
+                                
+                                li {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    display: inline-block;
+                                    margin: 5px;
+                                }
+                                
+                                body {
+                                    background-color: black;
+                                    background-image: url('image1.jpg');
+                                    background-repeat: no-repeat;
+                                    background-attachment: fixed;
+                                    background-size: cover;
+                                }
+                                
+                                .main h1 {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    color: whitesmoke;
+                                }
+                                
+                                .main {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    color: whitesmoke;
+                                }
+                                
+                                p .hidden {
+                                    visibility: hidden;
+                                }
+                                
+                                .fadein {
+                                    width: 50%;
+                                    /*animation: fadein 6s;*/
+                                    animation: slidein 5s ease-in .7s;
+                                }
+                                
+                                @keyframes fadein {
+                                    from {
+                                        opacity: 0;
+                                    }
+                                    to {
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                .test {
+                                    float: right;
+                                    animation: slideright 5s ease-in .7s;
+                                }
+                                
+                                .test p {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    color: whitesmoke;
+                                }
+                                
+                                @keyframes slideright {
+                                    0% {
+                                        transform: translatey(500px);
+                                        opacity: .3;
+                                    }
+                                    60% {
+                                        transform: translatey(0px);
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                .icon {
+                                    float: left;
+                                }
+                                
+                                .JS {
+                                    color: black;
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    font-size: large;
+                                }
+                                
+                                .icon {
+                                    background-color: white;
+                                    border-radius: 50%;
+                                    height: 64px;
+                                    width: 64px;
+                                }
+                                
+                                .circle {
+                                    padding-top: 15px;
+                                    text-align: center;
+                                }
+                                
+                                a {
+                                    padding-right: 5px;
+                                    color: steelblue;
+                                }
+                                
+                                .top_menu a:hover {
+                                    color: white;
+                                }
+                                
+                                .main1 h1 {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    color: whitesmoke;
+                                }
+                                
+                                .main1 {
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    color: whitesmoke;
+                                }
+                                
+                                .main1 p {
+                                    animation: slidein 3s ease-in .7s;
+                                    width: 50%;
+                                }
+                                
+                                @keyframes slidein {
+                                    0% {
+                                        transform: translatey(500px);
+                                        opacity: .3;
+                                    }
+                                    60% {
+                                        transform: translatey(0px);
+                                        opacity: 1;
+                                    }
+                                }
